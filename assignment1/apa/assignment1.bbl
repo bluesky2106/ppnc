@@ -1,0 +1,135 @@
+\begin{thebibliography}{}
+
+\bibitem[{Deng} et~al., 2009]{Deng2009ImageNet}
+{Deng}, J., {Dong}, W., {Socher}, R., {Li}, L., {Kai Li}, and {Li Fei-Fei}
+  (2009).
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock In {\em 2009 IEEE Conference on Computer Vision and Pattern
+  Recognition}, pages 248--255.
+
+\bibitem[Dong et~al., 2019]{dong2019unified}
+Dong, L., Yang, N., Wang, W., Wei, F., Liu, X., Wang, Y., Gao, J., Zhou, M.,
+  and Hon, H.-W. (2019).
+\newblock Unified language model pre-training for natural language
+  understanding and generation.
+
+\bibitem[Gehring et~al., 2017]{gehring2017convolutional}
+Gehring, J., Auli, M., Grangier, D., Yarats, D., and Dauphin, Y.~N. (2017).
+\newblock Convolutional sequence to sequence learning.
+\newblock In {\em International Conference on Machine Learning}, pages
+  1243--1252. PMLR.
+
+\bibitem[Hestness et~al., 2017]{hestnessdeep}
+Hestness, J., Narang, S., Ardalani, N., Diamos, G., Jun, H., Kianinejad, H.,
+  Patwary, M. M.~A., Yang, Y., and Zhou, Y. (2017).
+\newblock Deep learning scaling is predictable, empirically.
+
+\bibitem[Huh et~al., 2016]{minyoung2016ImageNet}
+Huh, M., Agrawal, P., and Efros, A. (2016).
+\newblock What makes imagenet good for transfer learning?
+
+\bibitem[Jozefowicz et~al., 2016]{jozefowicz2016exploring}
+Jozefowicz, R., Vinyals, O., Schuster, M., Shazeer, N., and Wu, Y. (2016).
+\newblock Exploring the limits of language modeling.
+
+\bibitem[Kalchbrenner et~al., 2014]{kalchbrenner-etal-2014-convolutional}
+Kalchbrenner, N., Grefenstette, E., and Blunsom, P. (2014).
+\newblock A convolutional neural network for modelling sentences.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 655--665,
+  Baltimore, Maryland. Association for Computational Linguistics.
+
+\bibitem[Kenton and Toutanova, 2018]{kentonbert}
+Kenton, J. D. M.-W.~C. and Toutanova, L.~K. (2018).
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock {\em Universal Language Model Fine-tuning for Text Classification},
+  page 278.
+
+\bibitem[Kim, 2014]{kim-2014-convolutional}
+Kim, Y. (2014).
+\newblock Convolutional neural networks for sentence classification.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing ({EMNLP})}, pages 1746--1751, Doha, Qatar.
+  Association for Computational Linguistics.
+
+\bibitem[Liu et~al., 2016]{liu-2016-recurrent}
+Liu, P., Qiu, X., and Huang, X. (2016).
+\newblock Recurrent neural network for text classification with multi-task
+  learning.
+\newblock In {\em Proceedings of the Twenty-Fifth International Joint
+  Conference on Artificial Intelligence}, IJCAI'16, page 2873–2879. AAAI
+  Press.
+
+\bibitem[Liu et~al., 2019]{liu2019roberta}
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M.,
+  Zettlemoyer, L., and Stoyanov, V. (2019).
+\newblock Roberta: A robustly optimized bert pretraining approach.
+
+\bibitem[Mahajan et~al., 2018]{mahajan2018exploring}
+Mahajan, D., Girshick, R., Ramanathan, V., He, K., Paluri, M., Li, Y.,
+  Bharambe, A., and van~der Maaten, L. (2018).
+\newblock Exploring the limits of weakly supervised pretraining.
+\newblock In {\em European Conference on Computer Vision}, pages 185--201.
+  Springer.
+
+\bibitem[Marcheggiani et~al., 2018]{marcheggiani2018exploiting}
+Marcheggiani, D., Bastings, J., and Titov, I. (2018).
+\newblock Exploiting semantics in neural machine translation with graph
+  convolutional networks.
+\newblock In {\em Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers)}, pages 486--492.
+
+\bibitem[Oquab et~al., 2014]{oquab2014learning}
+Oquab, M., Bottou, L., Laptev, I., and Sivic, J. (2014).
+\newblock Learning and transferring mid-level image representations using
+  convolutional neural networks.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1717--1724.
+
+\bibitem[Radford et~al., 2019]{radford2019language}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. (2019).
+\newblock Language models are unsupervised multitask learners.
+
+\bibitem[Russakovsky et~al., 2015]{Russakovsky2015ImageNet}
+Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
+  Karpathy, A., Khosla, A., Bernstein, M., Berg, A.~C., and Fei-Fei, L. (2015).
+\newblock Imagenet large scale visual recognition challenge.
+\newblock {\em Int. J. Comput. Vision}, 115(3):211–252.
+
+\bibitem[Shazeer et~al., 2017]{shazeer2017outrageously}
+Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le, Q., Hinton, G., and
+  Dean, J. (2017).
+\newblock Outrageously large neural networks: The sparsely-gated
+  mixture-of-experts layer.
+
+\bibitem[Socher et~al., 2013]{socher-2013-recursivedeep}
+Socher, R., Perelygin, A., Wu, J.~Y., Chuang, J., Manning, C.~D., Ng, A.~Y.,
+  and Potts, C. (2013).
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In {\em In Proceedings of EMNLP}, pages 1631--1642.
+
+\bibitem[Sutskever et~al., 2014]{sutskever-2014-sequence}
+Sutskever, I., Vinyals, O., and Le, Q.~V. (2014).
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em Proceedings of the 27th International Conference on Neural
+  Information Processing Systems - Volume 2}, NIPS'14, page 3104–3112,
+  Cambridge, MA, USA. MIT Press.
+
+\bibitem[Tai et~al., 2015]{tai2015improved}
+Tai, K.~S., Socher, R., and Manning, C.~D. (2015).
+\newblock Improved semantic representations from tree-structured long
+  short-term memory networks.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 1556--1566.
+
+\bibitem[Thrun et~al., 2004]{thrun2004advances}
+Thrun, S., Saul, L.~K., and Sch{\"o}lkopf, B. (2004).
+\newblock {\em Advances in Neural Information Processing Systems 16:
+  Proceedings of the 2003 Conference}, volume~16.
+\newblock MIT press.
+
+\end{thebibliography}

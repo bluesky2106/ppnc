@@ -1,0 +1,74 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+%\usepackage{amsmath,amssymb,amsfonts}
+%\usepackage{algorithmic}
+%\usepackage{graphicx}
+%\usepackage{textcomp}
+%\usepackage{xcolor}
+%\usepackage{hyperref}
+%\usepackage{multirow}
+%\usepackage{colortbl}
+\usepackage[english,vietnamese]{babel}
+
+\begin{document}
+
+\title{Các mô hình tiền huấn luyện trong xử lý ngôn ngữ tự nhiên}
+
+\author{
+\IEEEauthorblockN{Loc PV. Nguyen}
+\IEEEauthorblockA{
+\textit{FPT University Global Education} \\
+Ho Chi Minh City, Vietnam \\
+loc20mse23026@fsb.edu.vn}
+\and
+
+\IEEEauthorblockN{Khoi XM. Nguyen}
+\IEEEauthorblockA{
+\textit{FPT University Global Education} \\
+Ho Chi Minh City, Vietnam \\
+khoi20mse23024@fsb.edu.vn}
+\and
+
+\IEEEauthorblockN{Phuong H. Nguyen}
+\IEEEauthorblockA{
+\textit{FPT University Global Education} \\
+Ho Chi Minh City, Vietnam \\
+phuong20mse23020@fsb.edu.vn}
+\and
+
+\IEEEauthorblockN{Hoang N. Dang}
+\IEEEauthorblockA{
+\textit{FPT University Global Education} \\
+Ho Chi Minh City, Vietnam \\
+hoang20mse23030@fsb.edu.vn}
+}
+
+\maketitle
+
+\begin{abstract}
+Trong bài khảo sát này chúng tôi sẽ cung cấp cái nhìn toàn diện về thuật ngữ Tiền Mô Hình âĐào Tạo trong Xử Lý Ngôn Ngữ Tự Nhiên (NLP). Mục tiêu của bài khảo sát này là tìm hiểu, nghiên cứu và so sánh tính hiệu quả của kỹ thuật này so với những phương pháp trước kia dựa trên những quy tắc chung.     
+\end{abstract}
+
+\begin{IEEEkeywords}
+Xử lý ngôn ngữ tự nhiên, Mô hình tiền huấn luyện, Trí tuệ nhân tạo, Học máy.
+\end{IEEEkeywords}
+
+\section{Giới thiệu}
+Phương pháp Học Chuyển Tiếp (Transfer Learning) là một phương pháp phổ biến trong thị giác máy tính cũng như xử lý ngôn ngữ tự nhiên và nhiều ứng dụng học máy khác. Học chuyển tiếp là một cách tiếp cận trong học sâu (và học máy), nơi kiến thức được chuyển giao từ mô hình này sang mô hình khác.
+
+Với phương pháp học chuyển tiếp, thay vì bắt đầu quá trình huấn luyện (Training) từ đầu, ta có thể bắt đầu học từ các mô hình tiền huấn luyện (Pre-trained model) đã đạt được khi giải quyết một vấn đề khác. Bằng cách này, ta có thể tận dụng những kiến thức (features) đã học trước đó và tránh bắt đầu lại từ đầu.
+
+Mô hình tiền huấn luyện (Pre-trained model) là một mô hình đã được đào tạo trên một tập dữ liệu chuẩn và đủ lớn để giải quyết một vấn đề tương tự như vấn đề mà chúng ta muốn giải quyết (như xử lý ngôn ngữ tự nhiên..). Do chi phí để huấn luyện các model rất tốn kém, nên thông thường người ta sẽ sử dụng các model từ các nguồn đã được public trước đó (ví dụ: BERT, PhoBERT, Underthesea, VGG, Inception, MobileNet,…).
+
+Với sự phát triển của học sâu, các mạng nơ-ron khác nhau đã được sử dụng rộng rãi để giải quyết các bài toán NLP , chẳng hạn như mạng nơ-ron tích chập (Convolutional Neural Network) ~\cite{gehring2017convolutional, kalchbrenner-etal-2014-convolutional, kim-2014-convolutional}, mạng nơ-ron hồi quy (Recurrent Neural Network) ~\cite{sutskever-2014-sequence, liu-2016-recurrent}, mạng nơ-ron đồ thị (Graph Neural Network) ~\cite{socher-2013-recursivedeep, tai2015improved, marcheggiani2018exploiting}. Các phương pháp NLP không sử dụng mạng nơ-ron thần kinh thường chủ yếu dựa vào các tính năng được tạo thủ công rời rạc, trong khi các phương pháp thần kinh thường sử dụng các vectơ có chiều thấp và dày đặc (hay còn gọi là biểu diễn phân phối) để thể hiện ngầm định các đặc điểm ngữ nghĩa cú pháp của ngôn ngữ. Những đại diện này được học trong các nhiệm vụ NLP cụ thể. Do đó, các phương pháp thần kinh giúp mọi người dễ dàng phát triển các hệ thống NLP khác nhau.
+
+Mặc dù mô hình mạng nơ-ron thần kinh cho các tác vụ NLP khá thành công, nhưng việc cải thiện hiệu suất có thể ít hơn so với lĩnh vực Thị giác máy tính (Computer Vision). Lý do chính là tập dữ liệu hiện tại cho hầu hết các tác vụ NLP được giám sát khá nhỏ (ngoại trừ dịch máy). Các mạng thần kinh sâu thường có một số lượng lớn các tham số, điều này làm cho chúng trang bị quá mức cho các dữ liệu huấn luyện nhỏ này và không tổng quát hóa tốt trong thực tế. Do đó, các mô hình thần kinh ban đầu cho nhiều tác vụ NLP tương đối nông và thường chỉ bao gồm 1/3 lớp thần kinh.
+
+Gần đây, tiền huấn luyện toàn bộ mô hình trên một bộ dữ liệu phong phú ngày càng trở nên phổ biến. Lý tưởng nhất, tiến huấn luyện khiến mô hình phát triển các khả năng và kiến thức có mục đích chung, sau đó có thể được chuyển giao cho các nhiệm vụ tiếp theo. Trong các ứng dụng của học chuyển giao thị giác máy tính ~\cite{oquab2014learning, thrun2004advances, minyoung2016ImageNet}, tiền huấn luyện thường được thực hiện thông qua học có giám sát trên một tập dữ liệu được gắn nhãn lớn như ImageNet ~\cite{Deng2009ImageNet, Russakovsky2015ImageNet}. Ngược lại, các kỹ thuật hiện đại trong học chuyển tiếp NLP thường được huấn luyện trước bằng cách sử dụng phương pháp học không giám sát trên dữ liệu không được gắn nhãn. Cách tiếp cận này gần đây đã được sử dụng để thu được các kết quả học thuật trong nhiều hệ thống điểm chuẩn NLP phổ biến nhất ~\cite{kentonbert, dong2019unified, liu2019roberta}. Ngoài sức mạnh thực nghiệm của nó, đào tạo trước không giám sát cho NLP đặc biệt hấp dẫn vì dữ liệu văn bản không gắn nhãn có sẵn trên Internet - ví dụ: Dự án Common Crawl với khoảng 20TB dữ liệu văn bản được trích xuất từ các trang web mỗi tháng. Điều này phù hợp một cách tự nhiên cho mạng nơ-ron, được chứng minh là thể hiện khả năng mở rộng đáng kể, tức là thường có thể đạt được hiệu suất tốt hơn chỉ đơn giản bằng cách đào tạo một mô hình lớn hơn trên tập dữ liệu lớn hơn ~\cite{hestnessdeep, shazeer2017outrageously, jozefowicz2016exploring, mahajan2018exploring, radford2019language}.
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibfile}
+
+\end{document}
