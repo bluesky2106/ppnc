@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.1)  2 MAR 2021 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.1)  2 MAR 2021 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,26 +489,42 @@ LaTeX Info: Redefining \nameref on input line 8.
 
  (./Ass1_APA_Header.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
+(Font)              <5> on input line 27.
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 2
-5.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 27.
 )
 (./Ass1_APA_Intro.tex
 Overfull \hbox (2.61049pt too wide) has occurred while \output is active
 [] 
  []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cnotenum' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@corref' on input line 8.
 
 [1
 
@@ -528,22 +544,23 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 14.
 Here is how much of TeX's memory you used:
  9925 strings out of 482598
  140993 string characters out of 5954037
- 378966 words of memory out of 5000000
+ 378973 words of memory out of 5000000
  24944 multiletter control sequences out of 15000+600000
  542874 words of font info for 42 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 38i,7n,38p,2057b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,38p,2050b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr
-/vnr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on Ass1_APA_Main.pdf (5 pages, 108667 bytes).
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr17.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/vntex/vnr/vntt10.pfb>
+Output written on Ass1_APA_Main.pdf (5 pages, 115737 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 144 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
