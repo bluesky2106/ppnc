@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.1)  2 MAR 2021 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.1)  2 MAR 2021 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,7 +482,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.21 ... cấp cái nhìn toàn diện về thuậ
-                                                  t ngữ Tiền Mô Hình �...
+                                                  t ngữ Tiền Mô Hình H...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -499,7 +499,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.21 ...cái nhìn toàn diện về thuật ngữ
-                                                   Tiền Mô Hình Đào T�...
+                                                   Tiền Mô Hình Huấn L...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -515,7 +515,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.21 ...hìn toàn diện về thuật ngữ Tiề
-                                                  n Mô Hình Đào Tạo tr...
+                                                  n Mô Hình Huấn Luyện...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -525,37 +525,41 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no u in font nullfont!
 
-! LaTeX Error: Command \DJ unavailable in encoding .
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...��n về thuật ngữ Tiền Mô Hình Đ
-                                                  ào Tạo trong Xử Lý N...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no o in font nullfont!
-Missing character: There is no T in font nullfont!
-
-! Package inputenc Error: Unicode character ạ (U+1EA1)
+! Package inputenc Error: Unicode character ấ (U+1EA5)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ... thuật ngữ Tiền Mô Hình Đào Tạ
-                                                  o trong Xử Lý Ngôn Ng�...
+l.21 ... về thuật ngữ Tiền Mô Hình Huấ
+                                                  n Luyện trong Xử Lý N...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no y in font nullfont!
+
+! Package inputenc Error: Unicode character ệ (U+1EC7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...uật ngữ Tiền Mô Hình Huấn Luyệ
+                                                  n trong Xử Lý Ngôn Ng�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -570,7 +574,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...�� Tiền Mô Hình Đào Tạo trong Xử
+l.21 ...Tiền Mô Hình Huấn Luyện trong Xử
                                                    Lý Ngôn Ngữ Tự Nhi�...
 
 You may provide a definition with
@@ -590,7 +594,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...�nh Đào Tạo trong Xử Lý Ngôn Ngữ
+l.21 ... Huấn Luyện trong Xử Lý Ngôn Ngữ
                                                    Tự Nhiên (NLP). Mục ...
 
 You may provide a definition with
@@ -605,7 +609,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...�ào Tạo trong Xử Lý Ngôn Ngữ Tự
+l.21 ...�n Luyện trong Xử Lý Ngôn Ngữ Tự
                                                    Nhiên (NLP). Mục tiêu...
 
 You may provide a definition with
@@ -1240,11 +1244,6 @@ Overfull \hbox (2.77779pt too wide) in paragraph at lines 21--26
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--26
-\/cmr/m/n/10 ^^Ra
- []
-
-
 Overfull \hbox (5.2778pt too wide) in paragraph at lines 21--26
 \/cmr/m/n/10 ^^Sy
  []
@@ -1385,11 +1384,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 57 strings out of 482598
- 713 string characters out of 5954037
+ 55 strings out of 482598
+ 706 string characters out of 5954037
  234248 words of memory out of 5000000
- 15331 multiletter control sequences out of 15000+600000
+ 15329 multiletter control sequences out of 15000+600000
  532338 words of font info for 24 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 17i,1n,16p,431b,95s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 17i,1n,16p,434b,95s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
