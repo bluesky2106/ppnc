@@ -9,9 +9,10 @@
 
 \bibitem[Dong et~al., 2019]{dong2019unified}
 Dong, L., Yang, N., Wang, W., Wei, F., Liu, X., Wang, Y., Gao, J., Zhou, M.,
-  and Hon, H.-W. (2019).
+  and Hon, H. (2019).
 \newblock Unified language model pre-training for natural language
   understanding and generation.
+\newblock {\em CoRR}, abs/1905.03197.
 
 \bibitem[Gehring et~al., 2017]{gehring2017convolutional}
 Gehring, J., Auli, M., Grangier, D., Yarats, D., and Dauphin, Y.~N. (2017).
@@ -20,17 +21,21 @@ Gehring, J., Auli, M., Grangier, D., Yarats, D., and Dauphin, Y.~N. (2017).
   1243--1252. PMLR.
 
 \bibitem[Hestness et~al., 2017]{hestnessdeep}
-Hestness, J., Narang, S., Ardalani, N., Diamos, G., Jun, H., Kianinejad, H.,
+Hestness, J., Narang, S., Ardalani, N., Diamos, G.~F., Jun, H., Kianinejad, H.,
   Patwary, M. M.~A., Yang, Y., and Zhou, Y. (2017).
 \newblock Deep learning scaling is predictable, empirically.
+\newblock {\em CoRR}, abs/1712.00409.
 
 \bibitem[Huh et~al., 2016]{minyoung2016ImageNet}
-Huh, M., Agrawal, P., and Efros, A. (2016).
+Huh, M., Agrawal, P., and Efros, A.~A. (2016).
 \newblock What makes imagenet good for transfer learning?
+\newblock {\em CoRR}, abs/1608.08614.
 
-\bibitem[Jozefowicz et~al., 2016]{jozefowicz2016exploring}
-Jozefowicz, R., Vinyals, O., Schuster, M., Shazeer, N., and Wu, Y. (2016).
+\bibitem[J{\'{o}}zefowicz et~al., 2016]{jozefowicz2016exploring}
+J{\'{o}}zefowicz, R., Vinyals, O., Schuster, M., Shazeer, N., and Wu, Y.
+  (2016).
 \newblock Exploring the limits of language modeling.
+\newblock {\em CoRR}, abs/1602.02410.
 
 \bibitem[Kalchbrenner et~al., 2014]{kalchbrenner-etal-2014-convolutional}
 Kalchbrenner, N., Grefenstette, E., and Blunsom, P. (2014).
@@ -64,14 +69,17 @@ Liu, P., Qiu, X., and Huang, X. (2016).
 \bibitem[Liu et~al., 2019]{liu2019roberta}
 Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M.,
   Zettlemoyer, L., and Stoyanov, V. (2019).
-\newblock Roberta: A robustly optimized bert pretraining approach.
+\newblock Roberta: {A} robustly optimized {BERT} pretraining approach.
+\newblock {\em CoRR}, abs/1907.11692.
 
 \bibitem[Mahajan et~al., 2018]{mahajan2018exploring}
-Mahajan, D., Girshick, R., Ramanathan, V., He, K., Paluri, M., Li, Y.,
+Mahajan, D., Girshick, R.~B., Ramanathan, V., He, K., Paluri, M., Li, Y.,
   Bharambe, A., and van~der Maaten, L. (2018).
 \newblock Exploring the limits of weakly supervised pretraining.
-\newblock In {\em European Conference on Computer Vision}, pages 185--201.
-  Springer.
+\newblock In Ferrari, V., Hebert, M., Sminchisescu, C., and Weiss, Y., editors,
+  {\em Computer Vision - {ECCV} 2018 - 15th European Conference, Munich,
+  Germany, September 8-14, 2018, Proceedings, Part {II}}, volume 11206 of {\em
+  Lecture Notes in Computer Science}, pages 185--201. Springer.
 
 \bibitem[Marcheggiani et~al., 2018]{marcheggiani2018exploiting}
 Marcheggiani, D., Bastings, J., and Titov, I. (2018).
@@ -91,6 +99,7 @@ Oquab, M., Bottou, L., Laptev, I., and Sivic, J. (2014).
 \bibitem[Radford et~al., 2019]{radford2019language}
 Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. (2019).
 \newblock Language models are unsupervised multitask learners.
+\newblock {\em OpenAI blog}, 1(8):9.
 
 \bibitem[Russakovsky et~al., 2015]{Russakovsky2015ImageNet}
 Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
@@ -99,10 +108,11 @@ Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
 \newblock {\em Int. J. Comput. Vision}, 115(3):211–252.
 
 \bibitem[Shazeer et~al., 2017]{shazeer2017outrageously}
-Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le, Q., Hinton, G., and
-  Dean, J. (2017).
+Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le, Q.~V., Hinton, G.~E.,
+  and Dean, J. (2017).
 \newblock Outrageously large neural networks: The sparsely-gated
   mixture-of-experts layer.
+\newblock {\em CoRR}, abs/1701.06538.
 
 \bibitem[Socher et~al., 2013]{socher-2013-recursivedeep}
 Socher, R., Perelygin, A., Wu, J.~Y., Chuang, J., Manning, C.~D., Ng, A.~Y.,
