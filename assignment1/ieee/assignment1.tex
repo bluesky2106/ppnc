@@ -12,6 +12,15 @@
 %\usepackage{colortbl}
 \usepackage[english,vietnamese]{babel}
 
+\makeatletter
+\newcommand{\linebreakand}{%
+  \end{@IEEEauthorhalign}
+  \hfill\mbox{}\par
+  \mbox{}\hfill\begin{@IEEEauthorhalign}
+}
+\makeatother
+
+
 \begin{document}
 
 \title{Các mô hình tiền huấn luyện trong xử lý ngôn ngữ tự nhiên}
@@ -36,7 +45,7 @@ khoi20mse23024@fsb.edu.vn}
 \textit{FPT University Global Education} \\
 Ho Chi Minh City, Vietnam \\
 phuong20mse23020@fsb.edu.vn}
-\and
+\linebreakand
 
 \IEEEauthorblockN{Hoang N. Dang}
 \IEEEauthorblockA{
