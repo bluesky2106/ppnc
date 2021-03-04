@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Bahdanau et~al., 2019]{bahdanau2019neural}
+Bahdanau, D., Cho, K., and Bengio, Y. (2019).
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+
 \bibitem[Cho et~al., 2014]{cho2014learning}
 Cho, K., van Merrienboer, B., G{\"u}l{\c{c}}ehre, {\c{C}}., Bahdanau, D.,
   Bougares, F., Schwenk, H., and Bengio, Y. (2014).
@@ -19,6 +24,18 @@ Dahl, G.~E., Yu, D., Deng, L., and Acero, A. (2012).
 \newblock Context-dependent pre-trained deep neural networks for
   large-vocabulary speech recognition.
 \newblock {\em {IEEE} Trans. Speech Audio Process.}, 20(1):30--42.
+
+\bibitem[Graves, 2013]{graves2013generating}
+Graves, A. (2013).
+\newblock Generating sequences with recurrent neural networks.
+\newblock {\em arXiv preprint arXiv:1308.0850}.
+
+\bibitem[Graves et~al., 2006]{graves2006connectionist}
+Graves, A., Fern{\'a}ndez, S., Gomez, F., and Schmidhuber, J. (2006).
+\newblock Connectionist temporal classification: labelling unsegmented sequence
+  data with recurrent neural networks.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning}, pages 369--376.
 
 \bibitem[Hinton et~al., 2012]{hinton2012deep}
 Hinton, G., Deng, L., Yu, D., Dahl, G.~E., Mohamed, A.-r., Jaitly, N., Senior,
