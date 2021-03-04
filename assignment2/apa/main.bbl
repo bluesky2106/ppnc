@@ -1,0 +1,86 @@
+\begin{thebibliography}{}
+
+\bibitem[Cho et~al., 2014]{cho2014learning}
+Cho, K., van Merrienboer, B., G{\"u}l{\c{c}}ehre, {\c{C}}., Bahdanau, D.,
+  Bougares, F., Schwenk, H., and Bengio, Y. (2014).
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock In {\em EMNLP}.
+
+\bibitem[Ciresan et~al., 2012]{DBLP:conf/cvpr/CiresanMS12}
+Ciresan, D.~C., Meier, U., and Schmidhuber, J. (2012).
+\newblock Multi-column deep neural networks for image classification.
+\newblock In {\em 2012 {IEEE} Conference on Computer Vision and Pattern
+  Recognition, Providence, RI, USA, June 16-21, 2012}, pages 3642--3649. {IEEE}
+  Computer Society.
+
+\bibitem[Dahl et~al., 2012]{DBLP:journals/taslp/DahlYDA12}
+Dahl, G.~E., Yu, D., Deng, L., and Acero, A. (2012).
+\newblock Context-dependent pre-trained deep neural networks for
+  large-vocabulary speech recognition.
+\newblock {\em {IEEE} Trans. Speech Audio Process.}, 20(1):30--42.
+
+\bibitem[Hinton et~al., 2012]{hinton2012deep}
+Hinton, G., Deng, L., Yu, D., Dahl, G.~E., Mohamed, A.-r., Jaitly, N., Senior,
+  A., Vanhoucke, V., Nguyen, P., Sainath, T.~N., et~al. (2012).
+\newblock Deep neural networks for acoustic modeling in speech recognition: The
+  shared views of four research groups.
+\newblock {\em IEEE Signal processing magazine}, 29(6):82--97.
+
+\bibitem[Hochreiter and Schmidhuber, 1997]{HochreiterandSchmidhuber1997}
+Hochreiter, S. and Schmidhuber, J. (1997).
+\newblock Long short-term memory.
+\newblock {\em Neural Comput.}, 9(8):1735--1780.
+
+\bibitem[Kalchbrenner and Blunsom, 2013]{kalchbrenner2013recurrent}
+Kalchbrenner, N. and Blunsom, P. (2013).
+\newblock Recurrent continuous translation models.
+\newblock In {\em Proceedings of the 2013 conference on empirical methods in
+  natural language processing}, pages 1700--1709.
+
+\bibitem[Krizhevsky et~al., 2017]{DBLP:journals/cacm/KrizhevskySH17}
+Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2017).
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock {\em Commun. {ACM}}, 60(6):84--90.
+
+\bibitem[Le et~al., 2012]{LeRMDCCDN12}
+Le, Q.~V., Ranzato, M., Monga, R., Devin, M., Corrado, G., Chen, K., Dean, J.,
+  and Ng, A.~Y. (2012).
+\newblock Building high-level features using large scale unsupervised learning.
+\newblock In {\em Proceedings of the 29th International Conference on Machine
+  Learning, {ICML} 2012, Edinburgh, Scotland, UK, June 26 - July 1, 2012}.
+  icml.cc / Omnipress.
+
+\bibitem[LeCun et~al., 1998]{lecun1998gradient}
+LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. (1998).
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2324.
+
+\bibitem[Mikolov et~al., 2010]{Mikolov2010}
+Mikolov, T., Karafi{\'{a}}t, M., Burget, L., Cernock{\'{y}}, J., and Khudanpur,
+  S. (2010).
+\newblock Recurrent neural network based language model.
+\newblock In Kobayashi, T., Hirose, K., and Nakamura, S., editors, {\em
+  {INTERSPEECH} 2010, 11th Annual Conference of the International Speech
+  Communication Association, Makuhari, Chiba, Japan, September 26-30, 2010},
+  pages 1045--1048. {ISCA}.
+
+\bibitem[Razborov, 1992]{DBLP:conf/swat/Razborov92}
+Razborov, A.~A. (1992).
+\newblock On small depth threshold circuits.
+\newblock In Nurmi, O. and Ukkonen, E., editors, {\em Algorithm Theory - {SWAT}
+  '92, Third Scandinavian Workshop on Algorithm Theory, Helsinki, Finland, July
+  8-10, 1992, Proceedings}, volume 621 of {\em Lecture Notes in Computer
+  Science}, pages 42--52. Springer.
+
+\bibitem[Rumelhart et~al., 1986]{rumelhart1986learning}
+Rumelhart, D.~E., Hinton, G.~E., and Williams, R.~J. (1986).
+\newblock Learning representations by back-propagating errors.
+\newblock {\em nature}, 323(6088):533--536.
+
+\bibitem[Werbos, 1990]{werbos1990backpropagation}
+Werbos, P.~J. (1990).
+\newblock Backpropagation through time: what it does and how to do it.
+\newblock {\em Proceedings of the IEEE}, 78(10):1550--1560.
+
+\end{thebibliography}

@@ -1,0 +1,23 @@
+\section{Phương pháp}
+
+Mô hình mạng nơ-ron hồi quy (Recurrent Neural Network, viết tắt là RNN) \citep{werbos1990backpropagation, rumelhart1986learning} là sự tổng quát hóa tự nhiên của các mạng nơ-ron truyền thẳng tới các chuỗi. Trong khoảng 5-6 năm gần đây, RNN được ứng dụng rộng rãi trong ngành NLP và thu được những thành tựu lớn. Mạng RNN mô hình hóa được bản chất của dữ liệu trong NLP (có đặc tính chuỗi và các thành phần như từ, cụm từ trong dữ liệu phụ thuộc lẫn nhau). Có thể nói việc áp dụng mạng RNN là một bước đột phá trong ngành NLP.
+
+Cho trước 1 chuỗi $\left\{\mathbf{x}_{1}, \mathbf{x}_{2}, \ldots, \mathbf{x}_{T}\right\}$, một mạng RNN tiêu chuẩn tính toán thứ tự kết quả đầu ra $\left\{\mathbf{y}_{1}, \mathbf{y}_{2}, \ldots, \mathbf{y}_{T}\right\}$ bằng cách lặp đi lặp lại phương trình sau:
+
+\begin{equation}
+\mathbf{h}_{t}=sigm\left(W^{hx}{\mathbf{x}_{t}} + W^{hh}{\mathbf{h}_{t-1}}\right)
+\end{equation}
+
+\begin{equation}
+\mathbf{y}_{t}=W^{yh}{\mathbf{h}_{t}}
+\end{equation}
+
+RNN có thể dễ dàng ánh xạ chuỗi thành chuỗi bất cứ khi nào sự liên kết giữa các thông lượng đầu vào được biết trước. Tuy nhiên, phương pháp này không thực sự hiểu quả để áp dụng cho một RNN cho các vấn đề mà đầu vào và chuỗi đầu ra có độ dài khác nhau cung với mối quan hệ vào - ra phức tạp và không đơn điệu.
+
+Chiến lược đơn giản nhất để học trình tự chung là ánh xạ trình tự đầu vào tới một trình lưu trữ có kích thước cố định bằng cách sử dụng một RNN và sau đó ánh xạ vectơ tới chuỗi mục tiêu bằng một RNN khác (cách tiếp cận này cũng đã được thực hiện bởi \citep{cho2014learning}). Mặc dù về nguyên tắc, nó có thể hoạt động vì RNN được cung cấp tất cả các thông tin liên quan, nhưng sẽ rất khó để đào tạo các RNN do các sự phụ thuộc xa (Hình \ref{fig_1}). Tuy nhiên, Bộ nhớ dài-ngắn (LSTM) \citep{HochreiterandSchmidhuber1997} được biết là có khả năng tìm hiểu các vấn đề về phụ thuộc thời gian trong phạm vi dài, vì vậy LSTM có thể thành công trong cài đặt này.
+
+Mục tiêu của LSTM là ước tính xác suất có điều kiện P$\left(\mathbf{y}_{1:T'} \mid \mathbf{x}_{1: T}\right)$ với $\left\{\mathbf{x}_{1}, \mathbf{x}_{2}, \ldots, \mathbf{x}_{T}\right\}$ là chuỗi đầu vào và $\left\{\mathbf{y}_{1}, \mathbf{y}_{2}, \ldots, \mathbf{y}_{T'}\right\}$ là chuỗi đầu ra tương ứng với chiều dài T' có thể khác với T. LSTM tính xác suất có điều kiện này bằng cách đầu tiên lấy biểu diễn chiều cố định v của chuỗi đầu vào $\left\{\mathbf{y}_{1}, \mathbf{y}_{2}, \ldots, \mathbf{y}_{T'}\right\}$ cho bởi trạng thái ẩn cuối cùng của LSTM, rồi sau đó tính toán xác suất của $\left\{\mathbf{y}_{1}, \mathbf{y}_{2}, \ldots, \mathbf{y}_{T'}\right\}$ với công thức tiêu chuẩn LSTM-LM với trạng thái ẩn ban đầu được đặc trưng bởi v của chuỗi đầu vào $\left\{\mathbf{y}_{1}, \mathbf{y}_{2}, \ldots, \mathbf{y}_{T'}\right\}$:
+
+\begin{equation}
+P\left(\mathbf{y}_{1:T'} \mid \mathbf{x}_{1:T}\right)=\prod_{t=1}^{T'} P\left(\mathbf{y}_{t} \mid v, \mathbf{y}_{1:t-1} \right)
+\end{equation}

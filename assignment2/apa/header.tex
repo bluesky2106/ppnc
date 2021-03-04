@@ -1,0 +1,24 @@
+%Tile, author & header
+\begin{frontmatter}
+%   Title & Author  %
+\title{Học Trình Tự Theo Trình Tự Với Mạng Nơ-Ron}
+\author{Loc PV. Nguyen\corref{cor1}}
+\ead{loc20mse23026@fsb.edu.vn}
+\author{Khoi XM. Nguyen}
+\ead{khoi20mse23024@fsb.edu.vn}
+\author{Phuong H. Nguyen}
+\ead{phuong20mse23020@fsb.edu.vn}
+\author{Hoang N. Dang}\corref{cor1}
+\ead{hoang20mse23030@fsb.edu.vn}
+\address{Faculty of Information Technology, FPT University Global Education, Ho Chi Minh city, Vietnam}
+\cortext[cor1]{Corresponding author}
+
+%   Abstract & Keyword  %
+\begin{abstract}
+Các mô hình mạng học sâu (Deep Neural Networks - DNNs) là những mô hình mạnh mẽ đã đạt được hiệu suất xuất sắc trong các nhiệm vụ học tập phức tạp. Mặc dù DNNs hoạt động tốt khi nào có sẵn số lượng lớn các tập huấn luyện gán nhãn, nhưng chúng không thể được sử dụng để ánh xạ chuỗi thành chuỗi. Bài báo này trình bày một cách tiếp cận tổng quát từ đầu đến cuối để học trình tự tạo ra các giả định tối thiểu về cấu trúc trình tự. Trong bài báo, tác giả đã sử dụng phương pháp mạng nhiều lớp bộ nhớ ngắn hạn dài (Long Short-Term Memory - LSTM) để ánh xạ chuỗi đầu vào thành một vectơ có chiều dài cố định và sau đó là một LSTM sâu khác để giải mã chuỗi mục tiêu từ vectơ đó. Mục tiêu chính là dịch từ tiếng Anh sang tiếng Pháp từ tập dữ liệu WMT’14, các bản dịch do LSTM tạo ra đạt được điểm BLEU là 34,8 trên toàn bộ tập thử nghiệm, trong đó điểm số BLEU của LSTM bị phạt đối với các từ không nằm trong tập từ vựng. Ngoài ra, LSTM không gặp khó khăn với các câu dài. Để so sánh, hệ thống dịch dựa trên cụm từ (phrase-based) SMT đạt được điểm BLEU là 33,3 trên cùng một tập dữ liệu. Trong khi đó, sử dụng LSTM để đánh giá lại 1000 giả thuyết được tạo ra bởi hệ thống SMT nói trên, điểm BLEU của nó tăng lên 36,5, gần với kết quả tốt nhất trước đó cho nhiệm vụ này. LSTM cũng học các cách biểu diễn câu và cụm từ hợp lý nhạy cảm với trật tự từ và tương đối bất biến đối với giọng chủ động và giọng bị động. Cuối cùng, việc đảo ngược thứ tự của các từ trong tất cả các câu nguồn (nhưng không phải câu đích) đã cải thiện đáng kể hiệu suất của LSTM, bởi vì làm như vậy đã tạo ra nhiều phụ thuộc ngắn hạn giữa câu nguồn và câu đích khiến vấn đề tối ưu hóa trở nên dễ dàng hơn.
+\end{abstract}
+\begin{keyword}
+Mô hình học sâu, Mạng bộ nhớ dài-ngắn, Trí tuệ nhân tạo, Học máy, Hệ thống dựa trên cụm từ, Mạng nơ-ron hồi quy.
+\end{keyword}
+
+\end{frontmatter}
